@@ -7,7 +7,7 @@
     tester_testing_directory: 'apps'
     clonerepo_repo: 'https://github.com/ljemal/compile-demo.git'
     clonerepo__branch: 'main'
-    path_to_jar: /home/ec2-user/apps/target/gs-spring-boot-0.1.0.jar.original
+    awsupload_compile_path_to_jar: /home/ec2-user/apps/target/gs-spring-boot-0.1.0.jar.original
     awsupload_bucket: bucketforcompile
     awsupload_object: compile.jar
     awsupload_bucket_source: "{{ jar['content'] }}"
