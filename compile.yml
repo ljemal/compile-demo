@@ -14,10 +14,10 @@
     compile_region: 'us-east-2'
   
   roles:
-    - ljemal.demos.ssh
-    - ljemal.demos.install_git
-    - ljemal.demos.clonerepo
-    - ljemal.demos.maven  
-    - ljemal.demos.packages
-    - ljemal.demos.tester 
-    - ljemal.demos.awsupload
+    - ljemal.compile.ssh
+    - ljemal.compile.install_git
+    - ljemal.compile.clonerepo
+    - ljemal.compile.maven  
+    - ljemal.compile.packages
+    - ljemal.compile.tester 
+    - ljemal.compile.awsupload
