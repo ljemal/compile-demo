@@ -1,0 +1,8 @@
+- name: Terminate instances
+  hosts: localhost
+  gather_facts: False
+  vars:
+    compile_region: us-east-2
+    compile_instance_name: instance    
+  roles:
+    - ljemal.demos.deleteec
