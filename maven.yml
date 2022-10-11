@@ -1,6 +1,0 @@
----
-- name: install maven
-  hosts: all
-  become: true
-  roles:
-    - ljemal.demos.maven     

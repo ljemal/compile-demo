@@ -1,7 +1,0 @@
----
-- name: wait
-  hosts: all
-  gather_facts: false
-  roles:
-    - ljemal.demos.ssh
- 

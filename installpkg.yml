@@ -1,6 +1,0 @@
----
-- name: install artifacts
-  hosts: all
-  become: false
-  roles:
-    - ljemal.demos.packages

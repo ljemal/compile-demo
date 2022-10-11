@@ -1,6 +1,0 @@
----
-- name: test jar file
-  hosts: all
-  become: false
-  roles:
-    - ljemal.demos.tester 

@@ -1,5 +1,0 @@
----
-- name: aws s3 upload
-  hosts: all
-  roles:
-    - ljemal.demos.awsupload
