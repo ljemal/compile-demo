@@ -14,7 +14,6 @@
     compile_region: 'us-east-2'
   
   roles:
-    - ljemal.compile.ssh
     - ljemal.compile.install_git
     - ljemal.compile.clonerepo
     - ljemal.compile.maven  
